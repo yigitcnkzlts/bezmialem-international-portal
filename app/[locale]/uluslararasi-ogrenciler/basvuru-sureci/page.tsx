@@ -55,7 +55,7 @@ export default function ApplicationProcessPage() {
     >
       <div className="space-y-8">
         <p className="text-lg text-gray-700">
-           Vakıf Üniversitesi'ne uluslararası öğrenci olarak başvuru sürecini 
+          Üniversiteye uluslararası öğrenci olarak başvuru sürecini 
           adım adım takip edin.
         </p>
 

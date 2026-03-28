@@ -5,7 +5,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const t = await getTranslations({ locale, namespace: 'metadata' });
   return {
     title: 'Hakkımızda - Uluslararası İlişkiler Ofisi',
-    description: ' Vakıf Üniversitesi Uluslararası İlişkiler Ofisi hakkında bilgi'
+    description: 'Uluslararası İlişkiler Ofisi hakkında bilgi'
   };
 }
 
@@ -17,12 +17,10 @@ export default function AboutPage() {
     >
       <div className="space-y-8">
         <div className="bg-gradient-to-r from-brand-blue to-blue-700 text-white p-8 rounded-xl shadow-lg">
-          <h2 className="text-3xl font-bold mb-4"> Vakıf Üniversitesi</h2>
+          <h2 className="text-3xl font-bold mb-4">Üniversite</h2>
           <p className="text-lg leading-relaxed">
-            1845 yılında Valide Sultan  tarafından kurulan  Vakfı'nın bir parçası olan 
-            üniversitemiz, 180 yıllık köklü bir geçmişe sahiptir. Sağlık bilimleri alanında öncü bir 
-            kurum olarak, ulusal ve uluslararası düzeyde kaliteli eğitim ve araştırma faaliyetleri 
-            yürütmekteyiz.
+            Sağlık bilimleri alanında öncü bir kurum olarak, ulusal ve uluslararası düzeyde 
+            kaliteli eğitim ve araştırma faaliyetleri yürütmekteyiz.
           </p>
         </div>
 
@@ -50,10 +48,11 @@ export default function AboutPage() {
             Misyonumuz
           </h2>
           <p className="text-gray-700 leading-relaxed">
-             Vakıf Üniversitesi Uluslararası İlişkiler Ofisi olarak, üniversitemizin küresel 
-            akademik camiada görünürlüğünü artırmak, öğrenci ve akademik personel hareketliliğini 
-            desteklemek, uluslararası işbirlikleri geliştirmek ve farklı kültürlerden gelen öğrencilere 
-            kaliteli eğitim imkanı sunarak küresel sağlık profesyonelleri yetiştirmek temel misyonumuzdur.
+            Uluslararası İlişkiler Ofisi olarak, üniversitemizin küresel akademik camiada 
+            görünürlüğünü artırmak, öğrenci ve akademik personel hareketliliğini desteklemek, 
+            uluslararası işbirlikleri geliştirmek ve farklı kültürlerden gelen öğrencilere 
+            kaliteli eğitim imkanı sunarak küresel sağlık profesyonelleri yetiştirmek temel 
+            misyonumuzdur.
           </p>
         </div>
 
@@ -134,17 +133,16 @@ export default function AboutPage() {
             <div>
               <h3 className="font-bold mb-2">Adres</h3>
               <p className="text-blue-100 text-sm">
-                 Vakıf Üniversitesi<br />
-                Uluslararası İlişkiler Ofisi<br />
-                Adnan Menderes Bulvarı (Vatan Cad.)<br />
-                34093 Fatih/İstanbul, Türkiye
+                International Relations Office<br />
+                University Campus<br />
+                Istanbul, Turkey
               </p>
             </div>
             <div>
               <h3 className="font-bold mb-2">İletişim</h3>
               <p className="text-blue-100 text-sm">
                 <strong>Tel:</strong> +90 (212) 453 17 00<br />
-                <strong>E-posta:</strong> international@.edu.tr<br />
+                <strong>E-posta:</strong> international@university.edu<br />
                 <strong>Çalışma Saatleri:</strong> Pzt-Cum 09:00-17:00
               </p>
             </div>
